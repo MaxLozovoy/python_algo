@@ -14,7 +14,7 @@
 Введите число: 123
 Количество четных и нечетных цифр в числе равно: (1, 2)
 """
-
+"""
 a = input('Введите число:\n>> ')
 
 even = 0
@@ -27,3 +27,47 @@ for i in a:
         odd += 1
 
 print('Четных: ', even,'Нечетных: ', odd)
+"""
+"""
+def sum_even_odd(numb, even=0, odd=0):
+
+    #even = 0
+    #odd = 0
+    if len(numb) == 0:
+        return even, odd
+    else:
+        for i in numb:
+            if int(i) % 2 == 0:
+                even += 1
+            else:
+                odd += 1
+    return sum_even_odd(numb, even, odd)
+
+try:
+    NUMB = input('Введите число:\n>> ')
+    print(f'Колличество четных и нечетных цифр в числе равно: {sum_even_odd(NUMB)}')
+except ValueError:
+    print('Вы вместо числа ввели строку. Исправтесь.')
+
+"""
+
+def method(numb, even=0, odd=0):
+
+
+    if numb == 0:
+        return even, odd
+    else:
+        cur_num = numb % 10
+        numb = numb //10
+
+        if cur_num % 2 == 0:
+            even += 1
+        else:
+            odd += 1
+        return method(numb, even, odd)
+try:
+    number = int(input("Введите натуральное число:\n>> "))
+    print(f"Количество четных и нечетных цифр в числе равно: {method(number)}")
+except ValueError:
+    print('Вы вместо числа ввели строку. Исправтесь.')
+# как запустить функцию еще раз?

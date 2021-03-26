@@ -10,7 +10,7 @@
 Базовый случай здесь - угадали число или закончились попытки
 """
 import random
-
+"""
 num = random.randint(0, 100)
 # print(num)
 count = 1
@@ -28,6 +28,27 @@ while count <= 10:
 
 else:
     print('Вы не смогли отгадать с 10 попыток. Было загадано', num)
+"""
 
 
+def lucky_num(num, i=0):
+    i += 1
+    if i == 11:
+        print(f'Game Over!\nЧисло: {num}')
+        return
+    else:
+        answer = int(input(f'Попытка #{i}\nОтгадайте число от 0 до 100: '))
+        if answer == num:
+            print('Угадали!')
+
+        else:
+            if answer < num:
+                print('Загаданное число больше!\n')
+            else:
+                print('Загаданное число меньше!\n')
+
+            return lucky_num(num, i)
+
+
+lucky_num(random.randint(0, 100))
 

@@ -24,7 +24,7 @@
 Вы вместо трехзначного числа ввели строку (((. Исправьтесь
 Введите операцию (+, -, *, / или 0 для выхода):
 """
-
+"""
 while True:
     try:
         s = input("Введите операцию (+, -, *, / или 0 для выхода):\n>> ")
@@ -51,3 +51,39 @@ while True:
                 print("Деление на ноль!")
     else:
         print("Неверный знак операции!")
+"""
+
+def calc():
+    s = input("Введите операцию (+, -, *, / или 0 для выхода):\n>> ")
+
+    if s == '0':
+        print('Программа завершена')
+        return 'Выход'
+
+    else:
+        if s in '+-*/':
+            try:
+                x = float(input("Введите первое число:\n>>"))
+                y = float(input("Введите второе число:\n>>"))
+
+                if s == '+':
+                    print(x + y)
+                    return calc()
+                elif s == '-':
+                    print(x - y)
+                    return calc()
+                elif s == '*':
+                    print(x * y)
+                    return calc()
+                elif s == '/':
+                    if y != 0:
+                        print(x / y)
+                    else:
+                        print("Деление на ноль!")
+                    return calc()
+
+            except ValueError:
+                print('Неправильный ввод.')
+            return calc()
+calc()
+
