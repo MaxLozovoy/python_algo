@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d09944aa-bc51-48ec-9d13-65230043c512" name="Default Changelist" comment="Less_5">
-      <change afterPath="$PROJECT_DIR$/HomeWorke/task_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="d09944aa-bc51-48ec-9d13-65230043c512" name="Default Changelist" comment="Less_6" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -343,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617634703814</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Less_6">
+      <created>1617885779441</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1617885779441</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -364,7 +368,8 @@
     <MESSAGE value="HW_Less_3" />
     <MESSAGE value="task_2_done" />
     <MESSAGE value="HW_Less_4" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW_Less_4" />
+    <MESSAGE value="Less_6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Less_6" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617712146491">
@@ -375,26 +380,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1617716618869" />
-    <state width="1345" height="198" key="GridCell.Tab.0.bottom" timestamp="1617721722524">
+    <state width="1345" height="198" key="GridCell.Tab.0.bottom" timestamp="1617886272878">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="198" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1617721722524" />
-    <state width="1345" height="198" key="GridCell.Tab.0.center" timestamp="1617721722524">
+    <state width="1345" height="198" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1617886272878" />
+    <state width="1345" height="198" key="GridCell.Tab.0.center" timestamp="1617886272877">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="198" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1617721722524" />
-    <state width="1345" height="198" key="GridCell.Tab.0.left" timestamp="1617721722523">
+    <state width="1345" height="198" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1617886272877" />
+    <state width="1345" height="198" key="GridCell.Tab.0.left" timestamp="1617886272877">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="198" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1617721722523" />
-    <state width="1345" height="198" key="GridCell.Tab.0.right" timestamp="1617721722524">
+    <state width="1345" height="198" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1617886272877" />
+    <state width="1345" height="198" key="GridCell.Tab.0.right" timestamp="1617886272878">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="198" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1617721722524" />
-    <state x="275" y="84" key="Vcs.Push.Dialog.v2" timestamp="1617634708408">
+    <state width="1345" height="198" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1617886272878" />
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2" timestamp="1617885785473">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1617634708408" />
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1617885785473" />
     <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617712743749">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -403,16 +408,5 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1616673202085" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
