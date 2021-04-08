@@ -380,22 +380,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1617716618869" />
-    <state width="1345" height="198" key="GridCell.Tab.0.bottom" timestamp="1617886272878">
+    <state width="1345" height="198" key="GridCell.Tab.0.bottom" timestamp="1617891402939">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="198" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1617886272878" />
-    <state width="1345" height="198" key="GridCell.Tab.0.center" timestamp="1617886272877">
+    <state width="1345" height="198" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1617891402939" />
+    <state width="1345" height="198" key="GridCell.Tab.0.center" timestamp="1617891402938">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="198" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1617886272877" />
-    <state width="1345" height="198" key="GridCell.Tab.0.left" timestamp="1617886272877">
+    <state width="1345" height="198" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1617891402938" />
+    <state width="1345" height="198" key="GridCell.Tab.0.left" timestamp="1617891402938">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="198" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1617886272877" />
-    <state width="1345" height="198" key="GridCell.Tab.0.right" timestamp="1617886272878">
+    <state width="1345" height="198" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1617891402938" />
+    <state width="1345" height="198" key="GridCell.Tab.0.right" timestamp="1617891402939">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="198" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1617886272878" />
+    <state width="1345" height="198" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1617891402939" />
     <state x="275" y="84" key="Vcs.Push.Dialog.v2" timestamp="1617885785473">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -408,5 +408,16 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1616673202085" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/task_4.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
